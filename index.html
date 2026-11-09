@@ -6,19 +6,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#0a0e14">
 
-<title>Georgin Shaju | Junior IT Infrastructure &amp; Network Engineer</title>
-<meta name="description" content="Junior IT Infrastructure and Network Engineer with hands-on Windows Server, Cisco, FortiGate, HA, RADIUS, 802.1X and Wireshark lab experience.">
+<title>Georgin Shaju | IT Infrastructure Solutions Engineer (Pre-Sales)</title>
+<meta name="description" content="Georgin Shaju, IT Infrastructure Solutions Engineer (Pre-Sales) at Vatanix Technologies. Enterprise networking, network security, server infrastructure, Cisco, Meraki, Fortinet and Windows Server.">
 <link rel="canonical" href="https://georgin-shaju.github.io/">
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="Georgin Shaju | Junior IT Infrastructure &amp; Network Engineer">
-<meta property="og:description" content="Real-hardware infrastructure labs covering Windows Server, Cisco, FortiGate, high availability, RADIUS, 802.1X and packet analysis.">
+<meta property="og:title" content="Georgin Shaju | IT Infrastructure Solutions Engineer (Pre-Sales)">
+<meta property="og:description" content="IT infrastructure solutions, enterprise networking, network security and server technologies, supported by hands-on lab work and technical project documentation.">
 <meta property="og:url" content="https://georgin-shaju.github.io/">
 <meta property="og:site_name" content="Georgin Shaju">
 
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Georgin Shaju | Junior IT Infrastructure &amp; Network Engineer">
-<meta name="twitter:description" content="Real-hardware infrastructure labs with failure testing and packet-level verification.">
+<meta name="twitter:title" content="Georgin Shaju | IT Infrastructure Solutions Engineer (Pre-Sales)">
+<meta name="twitter:description" content="Enterprise networking, network security and infrastructure solutions, backed by hands-on technical experience.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -148,6 +148,53 @@
     50% { opacity: 0; }
   }
 
+  .timeline {
+    display: grid;
+    gap: 14px;
+    margin-top: 10px;
+    padding-left: 2px;
+  }
+
+  .timeline-item {
+    position: relative;
+    padding: 0 0 2px 18px;
+    border-left: 1px solid var(--border);
+  }
+
+  .timeline-item::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -5px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--green);
+    box-shadow: 0 0 0 3px var(--panel);
+  }
+
+  .timeline-role {
+    display: block;
+    color: var(--blue);
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  .timeline-meta {
+    display: block;
+    margin-top: 3px;
+    color: var(--amber);
+    font-size: 11px;
+  }
+
+  .timeline-detail {
+    display: block;
+    margin-top: 5px;
+    color: var(--muted);
+    font-size: 11px;
+    line-height: 1.55;
+  }
+
   .projects {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -228,6 +275,12 @@
   .hop-host a,
   a {
     color: var(--blue);
+  }
+
+  a:focus-visible {
+    outline: 2px solid var(--green);
+    outline-offset: 3px;
+    border-radius: 3px;
   }
 
   .hop-host a {
@@ -326,55 +379,91 @@
     <span class="dot r"></span>
     <span class="dot y"></span>
     <span class="dot g"></span>
-    <span class="path">georgin@infra-net: ~</span>
+    <span class="path">georgi@infrastructure: ~</span>
   </div>
 
   <div class="term">
     <section class="block" aria-labelledby="identity-command">
-      <p class="line prompt" id="identity-command">georgin@infra-net<span class="at">:~$</span> <span class="cmd">whoami</span></p>
+      <p class="line prompt" id="identity-command">georgi@infrastructure<span class="at">:~$</span> <span class="cmd">whoami</span></p>
       <h1 class="name">Georgin Shaju</h1>
-      <p class="role">Junior IT Infrastructure &amp; Network Engineer</p>
+      <p class="role">IT Infrastructure Solutions Engineer (Pre-Sales)</p>
     </section>
 
     <section class="block" aria-labelledby="about-command">
-      <p class="line prompt" id="about-command">georgin@infra-net<span class="at">:~$</span> <span class="cmd">cat about.txt</span></p>
-      <p class="out">BTech in CSE, Diploma in Network Engineering, and CCNA-trained. I build and test infrastructure on real hardware: Windows Server 2019/2025, Cisco routing and switching, FortiGate and Endian firewalls, RADIUS/802.1X, high availability, and Wireshark packet analysis. The portfolio records the baseline, the fault, the fix, and the evidence rather than stopping at configuration screenshots.</p>
+      <p class="line prompt" id="about-command">georgi@infrastructure<span class="at">:~$</span> <span class="cmd">cat about.txt</span></p>
+      <p class="out">I hold a B.Tech in Computer Science and Engineering and a Diploma in Network Engineering. My technical foundation comes from hands-on work with enterprise infrastructure, including Windows Server, Cisco routing and switching, Cisco Meraki, FortiGate firewalls, Cisco ISE, RADIUS/802.1X, and VMware ESXi. At Vatanix Technologies in Trichy, I developed practical skills through hardware deployments, configuration, troubleshooting, and failure testing. I now work as an IT Infrastructure Solutions Engineer (Pre-Sales) at Vatanix Technologies in Chennai, building on that experience to understand and support practical infrastructure solutions. My portfolio documents the configurations, problems, fixes, and validation evidence behind my technical work.</p>
+    </section>
+
+    <section class="block" aria-labelledby="journey-command">
+      <p class="line prompt" id="journey-command">georgi@infrastructure<span class="at">:~$</span> <span class="cmd">cat career-journey.log</span></p>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-role">IT Infrastructure Solutions Engineer (Pre-Sales)</span>
+          <span class="timeline-meta">Vatanix Technologies · Chennai · October 2026 – Present</span>
+          <span class="timeline-detail">Building on my infrastructure background in a full-time Pre-Sales role, with a focus on enterprise networking, security and infrastructure solutions.</span>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-role">Advanced Infrastructure &amp; Security Training</span>
+          <span class="timeline-meta">Vatanix Technologies · Trichy · August 2026 – September 2026</span>
+          <span class="timeline-detail">Advanced work across Windows Server 2025, Cisco StackWise, FortiGate HA, Cisco Meraki, Cisco ISE, EAP-TLS and TACACS+.</span>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-role">Core Network &amp; Hardware Training</span>
+          <span class="timeline-meta">Vatanix Technologies · Trichy · April 2026 – July 2026</span>
+          <span class="timeline-detail">Server hardware, VMware ESXi, Windows Server 2019, Cisco routing and switching, firewalls, wireless networking and troubleshooting.</span>
+        </div>
+      </div>
     </section>
 
     <section class="block" aria-labelledby="projects-command">
-      <p class="line prompt" id="projects-command">georgin@infra-net<span class="at">:~$</span> <span class="cmd">cat projects.log</span></p>
+      <p class="line prompt" id="projects-command">georgi@infrastructure<span class="at">:~$</span> <span class="cmd">cat projects.log</span></p>
 
       <div class="projects">
         <a class="project" href="https://github.com/georgin-shaju/Network-Infrastructure-Portfolio/tree/main/HairpinNAT" target="_blank" rel="noopener">
-          <span class="project-status">[PASS]</span>
+          <span class="project-status">[DOCUMENTED]</span>
           <span class="project-name">FortiGate Hairpin NAT</span>
-          <span class="project-evidence">IIS VIP · failed SYN baseline · same-interface policy · DNAT/SNAT proved with paired captures</span>
+          <span class="project-evidence">IIS VIP · same-interface policy · DNAT/SNAT verification with paired packet captures</span>
         </a>
 
         <a class="project" href="https://github.com/georgin-shaju/Network-Infrastructure-Portfolio/tree/main/FortiGate_Active-Passive-HA-Failover" target="_blank" rel="noopener">
-          <span class="project-status">[PASS]</span>
+          <span class="project-status">[DOCUMENTED]</span>
           <span class="project-name">FortiGate Active-Passive HA</span>
-          <span class="project-evidence">Two FortiGate 300D units · WAN-link loss · full-power failure · measured failover and failback</span>
+          <span class="project-evidence">Two FortiGate 300D units · WAN-link loss · power failure · failover and failback testing</span>
         </a>
 
         <a class="project" href="https://github.com/georgin-shaju/Network-Infrastructure-Portfolio/tree/main/AD_Infrastructure_Failover_and_AAA_Lab" target="_blank" rel="noopener">
-          <span class="project-status">[PASS]</span>
-          <span class="project-name">AD Failover &amp; AAA</span>
-          <span class="project-evidence">Windows Server 2025 · two DCs · DHCP/DNS failover · AD CS · NPS/RADIUS · PEAP/EAP-TLS</span>
+          <span class="project-status">[DOCUMENTED]</span>
+          <span class="project-name">Windows Server AD Failover &amp; AAA</span>
+          <span class="project-evidence">Windows Server 2025 · two domain controllers · AD/DNS redundancy · DHCP failover · AD CS · NPS/RADIUS</span>
         </a>
 
         <a class="project" href="https://github.com/georgin-shaju/Network-Infrastructure-Portfolio/tree/main/Cisco_3850_StackWise_Lab" target="_blank" rel="noopener">
-          <span class="project-status">[PASS]</span>
+          <span class="project-status">[DOCUMENTED]</span>
           <span class="project-name">Cisco 3850 StackWise</span>
-          <span class="project-evidence">Layer-3 gateway pair · dual LACP EtherChannels · SPAN monitoring · four live resiliency tests</span>
+          <span class="project-evidence">Layer 3 gateway pair · dual LACP EtherChannels · SPAN monitoring · physical resiliency tests</span>
+        </a>
+
+        <a class="project" href="https://github.com/georgin-shaju/Network-Infrastructure-Portfolio/tree/main/Cisco-ISE-Identity-and-Access-Control" target="_blank" rel="noopener">
+          <span class="project-status">[DOCUMENTED]</span>
+          <span class="project-name">Cisco ISE Identity &amp; Access</span>
+          <span class="project-evidence">EAP-TLS · certificate and endpoint authorization · dynamic VLAN assignment · TACACS+ command accounting</span>
+        </a>
+
+        <a class="project" href="https://github.com/georgin-shaju/Network-Infrastructure-Portfolio/tree/main/Cisco-Meraki-MS130-8P-Onboarding-FortiGate-Integration" target="_blank" rel="noopener">
+          <span class="project-status">[DOCUMENTED]</span>
+          <span class="project-name">Cisco Meraki Cloud Networking</span>
+          <span class="project-evidence">MS130-8P · FortiGate integration · 802.1Q trunking · Dashboard onboarding and client troubleshooting</span>
         </a>
       </div>
 
-      <p class="all-projects"><a href="https://github.com/georgin-shaju/Network-Infrastructure-Portfolio" target="_blank" rel="noopener">view all documented labs →</a></p>
+      <p class="all-projects"><a href="https://github.com/georgin-shaju/Network-Infrastructure-Portfolio" target="_blank" rel="noopener">Explore the full infrastructure portfolio →</a></p>
     </section>
 
     <section class="block" aria-labelledby="contact-command">
-      <p class="line prompt" id="contact-command">georgin@infra-net<span class="at">:~$</span> <span class="cmd">traceroute contact</span></p>
+      <p class="line prompt" id="contact-command">georgi@infrastructure<span class="at">:~$</span> <span class="cmd">traceroute contact</span></p>
       <table class="hops">
         <caption class="sr-only">Links to Georgin Shaju's portfolio and profiles</caption>
         <tbody>
@@ -395,7 +484,7 @@
           </tr>
           <tr>
             <td class="hop-n">4</td>
-            <td class="hop-host"><a href="https://instagram.com/georgiyeee" target="_blank" rel="noopener">instagram.com/georgiyeee</a><br><span class="muted">Behind the scenes</span></td>
+            <td class="hop-host"><a href="https://instagram.com/georgiyeee" target="_blank" rel="noopener">instagram.com/georgiyeee</a><br><span class="muted">Personal updates</span></td>
             <td class="hop-ms">personal</td>
           </tr>
         </tbody>
@@ -403,16 +492,17 @@
     </section>
 
     <section class="block" style="margin-bottom: 0" aria-labelledby="status-command">
-      <p class="line prompt" id="status-command">georgin@infra-net<span class="at">:~$</span> <span class="cmd">echo $STATUS</span><span class="cursor" aria-hidden="true"></span></p>
+      <p class="line prompt" id="status-command">georgi@infrastructure<span class="at">:~$</span> <span class="cmd">echo $STATUS</span><span class="cursor" aria-hidden="true"></span></p>
       <div class="statusline">
-        <span><b>●</b> currently working in IT infrastructure</span>
-        <span>status: building, testing, and documenting real systems</span>
+        <span><b>●</b> Role: IT Infrastructure Solutions Engineer (Pre-Sales)</span>
+        <span><b>●</b> Location: Chennai, India</span>
+        <span><b>●</b> Focus: Networking, Security &amp; Infrastructure Solutions</span>
       </div>
     </section>
   </div>
 
   <footer>
-    georgin-shaju.github.io · evidence-driven infrastructure portfolio · updated 2026
+    georgin-shaju.github.io · infrastructure solutions &amp; technical projects · 2026
   </footer>
 </main>
 </body>
